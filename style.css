@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* MAIN CARD */
+.container {
+    width: 350px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(to right, #4facfe, #ff9a9e);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* INPUT */
+.input-section {
+    display: flex;
+    justify-content: center;
+}
+
+.input-section input {
+    width: 65%;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.input-section button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    border: none;
+    background: #6c8ef5;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* SEARCH */
+.search-section {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.search-section input {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.icon-search {
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+/* TASK LIST */
+ul {
+    list-style: none;
+    padding: 0 15px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.task-text {
+    font-size: 16px;
+}
+
+/* COMPLETED */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* ACTION BUTTONS */
+.actions span {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* CLEAR BUTTON */
+#clearBtn {
+    margin: 15px;
+    padding: 6px 12px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
