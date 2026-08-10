@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MediCare HMS — Hospital Management System
 
 A full-featured Hospital Management System built with **PHP (vanilla, PDO)**, **MySQL**, and **Bootstrap 5**, designed to run on **XAMPP**.
@@ -117,3 +118,21 @@ hms/
 - Branding/colors: edit CSS variables at the top of `assets/css/style.css`.
 - App name: change `APP_NAME` in `config/config.php`.
 - Add more roles or modules by following the existing pattern in any module folder (`index.php`, `create.php`, `edit.php`, `view.php`, `delete.php`).
+=======
+# To-Do List App
+
+This is a simple to-do list app built using HTML, CSS, and JavaScript.
+
+## Features
+- Add tasks
+- Delete tasks
+- Mark tasks as completed
+
+## How to use
+1. Open the app
+2. Add your tasks
+3. Manage your daily activities
+
+## Author
+Abdalacreative
+>>>>>>> 961a2e63821304503f0b3fadc0e8b7404235cbf3
